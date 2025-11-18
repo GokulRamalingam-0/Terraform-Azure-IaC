@@ -40,21 +40,21 @@ module "aks_cluster" {
   log_analytics_workspace_id = module.monitoring.workspace_id
 }
 
-module "key_vault" {
-  source         = "./key_vault"
-  rg_name        = var.rg_name
-  location       = var.location
-  key_vault_name = "docker-key-vault412"
-}
+#module "key_vault" {
+#  source         = "./key_vault"
+#  rg_name        = var.rg_name
+#  location       = var.location
+#  key_vault_name = "docker-key-vault412"
+#}
 
-module "linux_vm" {
-  source   = "./azure_vm"
-  rg_name  = var.rg_name
-  location = var.location
-}
+#module "linux_vm" {
+#  source   = "./azure_vm"
+#  rg_name  = var.rg_name
+#  location = var.location
+#}
 
-module "contiainer_registry" {
-  source   = "./azure_container_registry"
-  rg_name  = var.rg_name
-  location = var.location
-}
+#module "contiainer_registry" {
+#  source   = "./azure_container_registry"
+#  rg_name  = var.rg_name
+#  location = var.location
+#}

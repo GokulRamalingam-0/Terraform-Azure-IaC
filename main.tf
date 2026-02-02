@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "kml_rg_main-876bc406a54f49cc"
+    resource_group_name  = "kml_rg_main-8e29a91c850745b8"
     storage_account_name = "tfstate41601"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"

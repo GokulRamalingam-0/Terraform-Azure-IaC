@@ -9,7 +9,7 @@ variable "module_variables" {
   })
   default = {
     key_vault_name = "docker-key-vault412"
-    rg_name = "kml_rg_main-876bc406a54f49cc"
+    rg_name = "kml_rg_main-8e29a91c850745b8"
     location = "West US"
     prefix  = "demo"
     kubernetes_version = "1.33.5"

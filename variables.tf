@@ -5,7 +5,7 @@ variable "location" {
 
 variable "rg_name" {
   type    = string
-  default = "kml_rg_main-167d6474acbb46c7"
+  default = "kml_rg_main-8e29a91c850745b8"
 }
 
 variable "prefix" {
